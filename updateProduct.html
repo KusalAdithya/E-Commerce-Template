@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Tech | Update Products</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/ntl13.png" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container-fluid justify-content-center">
+        <div class="row align-content-center">
+
+            <div class="col-12 mx-auto mb-1 fixed-top div2">
+                <div class="row mt-1">
+                    <!-- logo -->
+                    <div class="col-3 col-lg-2 my-auto">
+                        <div class="logo1"></div>
+                    </div>
+
+                    <div class="col-8 col-lg-9 ms-4 ms-lg-5 text-end my-auto">
+                        <div class="dropdown">
+                            <!-- menu -->
+                            <span class="btn dropdown-toggle" style="font-family: 'Ubuntu-Light';" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                <b class="h5">Kusal Perera</b>
+                            </span>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="adminSignIn.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <nav class="col-11 mx-auto bg-light mt-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a style="text-decoration: none;" href="manageProduct.html">Manage Products</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Update Products</li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+
+            <div class="col-11 mx-auto mb-3 p-2 px-4 div4">
+                <div class="row mt-4 mb-4">
+
+                    <div class="col-12 mb-3">
+                        <!-- title -->
+                        <h1 style="font-family: 'Ubuntu-Light'; font-weight: bold; ">Update Product</h1>
+                        <div class="bg-primary bar"></div>
+                    </div>
+                    <!-- ////// -->
+                    <div class="col-12 col-lg-12 mt-3">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Select Product Category</label>
+                                    </div>
+                                    <div class="col-12  mb-3">
+                                        <select class="form-select" disabled>
+                                                <option>Mobile Phones</option>
+                                                <option>Computers</option>
+                                                <option>Tablets</option>
+                                                <option>Televisions</option>
+                                                <option>Electronic Accessories</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Select Product Brand</label>
+                                    </div>
+                                    <div class="col-12  mb-3">
+                                        <select class="form-select" disabled>
+                                            <option>Apple</option>
+                                            <option>Samsung</option>
+                                            <option>Sony</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Select Product Model</label>
+                                    </div>
+                                    <div class="col-12  mb-3">
+                                        <select class="form-select" disabled>
+                                            <option>iPhone</option>
+                                            <option>M21</option>
+                                            <option>S21</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class=" border border-2 border-primary rounded-3" />
+
+                    <!-- title -->
+                    <div class="col-12 mb-2">
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label lbl1">Add a Title To Your Product</label>
+                            </div>
+                            <div class="col-12 col-lg-8 mx-auto">
+                                <input type="text" class="form-control" value="Apple Iphone 13" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class=" border border-2 border-primary rounded-3" />
+
+                    <!-- condition,color,qty -->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mt-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Select Product Condition</label>
+                                    </div>
+                                    <div class="form-check offset-1 offset-lg-1 col-10 col-lg-3">
+                                        <input class="form-check-input" type="radio" id="bn" name="exampleRadios" checked disabled>
+                                        <label class="form-check-label" for="bn">
+                                            Brand New
+                                        </label>
+                                    </div>
+                                    <div class="form-check offset-1 offset-lg-1 col-10 col-lg-3">
+                                        <input class="form-check-input" type="radio" id="us" name="exampleRadios" disabled>
+                                        <label class="form-check-label" for="us">
+                                            Used
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4 mt-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Select Product Colour</label>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <select class="form-select" disabled>
+                                                    <option>Blue</option>
+                                                    <option>Black</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 mt-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Add Product Quantity</label>
+                                        <input class="form-control" type="number" value="15" min="1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <hr class=" border border-2 border-primary rounded-3 mt-2" />
+
+                    <!-- cost,payment method -->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Cost Per Item</label>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">Rs,</span>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest rupee)" disabled value="320,000">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class=" border border-2 border-primary rounded-3" />
+
+                    <!-- delivary cost -->
+                    <div class="col-12">
+                        <div class="row">
+
+                            <div class="col-12 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1">Delivery Costs</label>
+                                    </div>
+                                    <div class="col-12 offset-lg-1 col-lg-3">
+                                        <label class="form-label">Delivery Cost Within Gampaha</label>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">Rs,</span>
+                                            <input type="text" class="form-control" aria-label="Amount (to the nearest rupee)" value="150">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label lbl1"></label>
+                                    </div>
+                                    <div class="col-12 offset-lg-1 col-lg-3 mt-lg-3">
+                                        <label class="form-label">Delivery Cost Out Of Gampaha</label>
+                                    </div>
+                                    <div class="col-12 col-lg-7 mt-lg-3">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">Rs,</span>
+                                            <input type="text" class="form-control" aria-label="Amount (to the nearest rupee)" value="300">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class=" border border-2 border-primary rounded-3" />
+
+                    <!-- description-->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label lbl1">Product Description</label>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" cols="100" rows="10" style="background-color: whitesmoke;">Released 2021, 6.1" Display, 12MP Camera, 4GB RAM, 128GB Storage, 3240mAh Battery</textarea>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class=" border border-2 border-primary rounded-3 mt-2" />
+
+                    <!-- product img -->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="form-label lbl1">Add Product Image</label>
+                            </div>
+
+                            <div class="col-6 col-md-4 mx-auto mx-md-0">
+                                <img src="img/pimg/i13.1.png" class="card-img-top" alt="...">
+                                <div class="col-12 mb-3">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-10 mt-2">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <input class="d-none" type="file" multiple accept="img/*" id="imguploder" />
+                                                    <div class="col-11 col-lg-8 d-grid mt-3">
+                                                        <button class="btn btn-info btn1">Upload</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class=" border border-2 border-primary rounded-3" />
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-11 col-lg-5   d-grid mx-auto mt-3">
+                                <button class="btn btn-primary btn1">Update Product</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ///// -->
+
+            </div>
+        </div>
+
+        <footer class="text-dark pt-5 pb-4 ">
+            <div class="col-12 text-center text-md-start ">
+                <div class="row text-center text-md-start ">
+                    <div class="col-8 col-lg-2 mx-auto ">
+                        <div class="logof "></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mx-auto mt-3 ">
+                        <p>Copyright &copy;2022 New Tech All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 mx-auto mt-3 ">
+                        <div class="text-center text-md-start ">
+                            <ul class="list-inline list-unstyled ">
+                                <li class="list-inline-item ">
+                                    <a href="https://www.facebook.com/ " class="form-floating btn-sm text-dark " style="font-size: 18px; ">
+                                        <i class="bi bi-facebook "></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <a href="https://twitter.com/i/flow/login " class="form-floating btn-sm text-dark " style="font-size: 18px; ">
+                                        <i class="bi bi-twitter "></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <a href="https://www.google.com/ " class="form-floating btn-sm text-dark " style="font-size: 18px; ">
+                                        <i class="bi bi-google "></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <a href="https://www.linkedin.com/ " class="form-floating btn-sm text-dark " style="font-size: 18px; ">
+                                        <i class="bi bi-linkedin "></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item ">
+                                    <a href="https://www.youtube.com/ " class="form-floating btn-sm text-dark " style="font-size: 18px; ">
+                                        <i class="bi bi-youtube "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mx-auto mt-3 ">
+                        <h5 class="text-uppercase mb-4 text-bold ">contact</h5>
+                        <p>
+                            <i class="bi bi-house-fill pe-1 "></i>Gampaha, Sri Lanka
+                        </p>
+                        <p>
+                            <i class="bi bi-envelope-fill pe-1 "></i>newtech@gmail.com
+                        </p>
+                        <p>
+                            <i class="bi bi-telephone-fill pe-1 "></i>+94775654345
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    </div>
+
+    <script src="script.js "></script>
+    <script src="bootstrap.bundle.js "></script>
+</body>
+
+</html>

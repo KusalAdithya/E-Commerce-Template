@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Tech | Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/ntl13.png" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="body1">
+    <div class="container-fluid justify-content-center">
+
+        <div class="row align-content-center">
+
+            <div class="col-11 mt-3 mt-lg-5 mx-auto mb-3 p-2 div1">
+
+                <!-- login -->
+                <div class="row mt-4 logIn" id="logIn">
+
+                    <div class="col-12 col-lg-6">
+                        <div class="logo mt-lg-5 "></div>
+
+                        <div class="col-12 mt-4 text-center text-uppercase">
+                            <label class="h3 title1 text-black-50">Explore our Electronic products</label>
+                        </div>
+
+                        <div class="col-5 d-none d-lg-grid  mx-auto mt-5 mb-3">
+                            <button class="btn btn-success btn1" onclick="changeView();">Create New Account</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="row justify-content-center p-2 my-auto mt-lg-5">
+                            <div class="col-11 mt-5">
+                                <p class="text-center title1">New Tech Login </p>
+                            </div>
+
+                            <div class=" mt-5 mb-4 col-11 col-md-8">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control input1" placeholder="name@example.com">
+                                    <label class="ms-2" for="username">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-4 mt-1 col-11 col-md-8">
+                                <input type="password" class="form-control input1" placeholder="Password">
+                                <label class="ms-2" for="password">Password</label>
+                            </div>
+
+                            <div class="mb-4  col-11 col-md-8">
+                                <div class="row mt-1">
+                                    <div class="col-6">
+                                        <div class="form-check ms-1">
+                                            <input class="form-check-input" type="checkbox" value="1" id="remember">
+                                            <label class="form-check-label" for="remember">Remember Me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-9 col-lg-5 d-grid mt-3 mb-3">
+                                <button class="btn btn-primary btn1" onclick="signIn();">Sign In</button>
+                            </div>
+
+                            <div class="col-9 col-lg-5 d-lg-none d-grid  mx-auto mb-3">
+                                <label class="h6 text-center">or</label>
+                                <button class="btn btn-success btn1" onclick="changeView();">Create New Account</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- register -->
+                <div class="row mt-4 d-none signUp" id="signUp">
+
+                    <div class="col-12 col-lg-6 d-block d-lg-none">
+                        <div class="logo mt-lg-5"></div>
+
+                        <div class="col-12 mt-4 text-center text-uppercase">
+                            <label class="h3 title1 text-black-50">Explore our Electronic products</label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="row justify-content-center p-2 my-auto ">
+                            <div class="col-11 mt-3">
+                                <p class="text-center title1">New Tech Registration</p>
+                            </div>
+
+                            <div class=" mt-5 mb-4 col-11 col-md-8">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control input1" placeholder="name@example.com">
+                                    <label class="ms-2" for="username">First Name</label>
+                                </div>
+                            </div>
+
+                            <div class="form-floating mb-4 mt-1 col-11 col-md-8">
+                                <input type="text" class="form-control input1" placeholder="Password">
+                                <label class="ms-2" for="password">Last Name</label>
+                            </div>
+
+                            <div class="form-floating mb-4 mt-1 col-11 col-md-8">
+                                <input type="email" class="form-control input1" placeholder="name@example.com">
+                                <label class="ms-2" for="username">Email Address</label>
+                            </div>
+
+                            <div class="form-floating mb-4 mt-1 col-11 col-md-8">
+                                <input type="password" class="form-control input1" placeholder="Password">
+                                <label class="ms-2" for="password">Password</label>
+                            </div>
+
+                            <div class="col-9 col-lg-5 d-grid mt-3 mb-3">
+                                <button class="btn btn-primary btn1">Sign Up</button>
+                            </div>
+
+                            <div class="col-9 col-lg-5 d-lg-none d-grid  mx-auto mb-3">
+                                <label class="h6 text-center">or</label>
+                                <button class="btn btn-info btn1" onclick="changeView();">Log In</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="logo mt-lg-5"></div>
+
+                        <div class="col-12 mt-4 text-center text-uppercase">
+                            <label class="h3 title1 text-black-50">Explore our Electronic products</label>
+                        </div>
+
+                        <div class="col-5  d-none d-lg-grid  mx-auto mt-5 mb-3">
+                            <button class="btn btn-info btn1" onclick="changeView();">Log In</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div class="col-12 d-none d-lg-block fixed-bottom">
+        <p class="text-center">&copy; 2022 New Tech.lk All Rights Reserved</p>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+
+</html>

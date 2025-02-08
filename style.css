@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: "Baloo2-Regular";
+    src: url("fonts/Baloo2-Regular.ttf");
+}
+
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+* {
+    font-family: "Baloo2-Regular";
+    font-size: 16px;
+}
+
+.body1 {
+    width: 100%;
+    background-image: url("img/ws1.webp");
+    background-repeat: repeat;
+}
+
+.div1 {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.logo {
+    height: 250px;
+    background-image: url("img/ntl13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Ubuntu-Light";
+    font-size: 35px;
+}
+
+.input1 {
+    border-radius: 20px;
+}
+
+.btn1 {
+    border-radius: 12px;
+}
+
+.logIn {
+    animation: transition 0.90s;
+}
+
+.signUp {
+    animation: transition 0.90s;
+}
+
+body {
+    background-color: rgb(244, 243, 243);
+}
+
+.container-fluid {
+    animation: transition 1s;
+}
+
+.logo1 {
+    height: 80px;
+    background-image: url("img/ntl14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.div2 {
+    background-color: rgb(244, 243, 243);
+}
+
+.div3 {
+    border-radius: 10px;
+}
+
+.div4 {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 160px;
+}
+
+.logof {
+    height: 150px;
+    background-image: url("img/ntl14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    animation: transition 1s;
+}
+
+.itemimg {
+    background-image: url(img/pimg/i13.1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    background-position: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    animation: transition 0s;
+}
+
+.card1:hover {
+    animation: transition 0s;
+}
+
+.invoiceLogo {
+    height: 120px;
+    background-image: url("img/ntl14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
